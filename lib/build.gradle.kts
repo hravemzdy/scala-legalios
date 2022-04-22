@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "org.hravemzdy.legalios"
-version = "0.22.2"
+version = "0.22.13"
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -89,7 +89,7 @@ publishing {
             pom {
                 name.set("scala-legalios")
                 description.set("payroll-procezor Salary, Health, Social, Taxing Properties for years 2011-2022")
-                url.set("https://mzdyhrave.github.io/payrolldocs/")
+                url.set("https://hravemzdy.github.io")
                 properties.set(mapOf(
                     "legalios.year.min" to "2011",
                     "legalios.year.max" to "2022",
@@ -105,13 +105,13 @@ publishing {
                     developer {
                         id.set("ladislavlisy")
                         name.set("Ladislav Lisy")
-                        email.set("info@hravemzdy.org")
+                        email.set("greatwork@hravemzdy.org")
                     }
                 }
                 scm {
-                    connection.set("scm:git:git@github.com:mzdyhrave/legaliosscala.git")
-                    developerConnection.set("scm:git:git@github.com:mzdyhrave/legaliosscala.git")
-                    url.set("https://mzdyhrave.github.io/payrolldocs/")
+                    connection.set("scm:git:git@github.com:hravemzdy/scala-legalios.git")
+                    developerConnection.set("scm:git:git@github.com:hravemzdy/scala-legalios.git")
+                    url.set("https://hravemzdy.github.io")
                 }
             }
         }
